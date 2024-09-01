@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
 
 public class CameraMovement : MonoBehaviour
 {
@@ -98,7 +97,6 @@ public class CameraMovement : MonoBehaviour
     {
         _ui.HideAllObjectsInsteadOf(_objectID);
         _ui.ToogleMainUI(false);
-        //_ui.HideAllObjectsInsteadOf(_objectID);
         _focusedObject = _object;
         _focused = true;
     }
